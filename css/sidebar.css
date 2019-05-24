@@ -1,0 +1,21 @@
+/* CSS File purely for the <nav> bar with id="sidebar" */
+
+#sidebar {
+	margin: 0 10px 0 10px;
+	text-align: right;
+	line-height: 25px;
+	overflow: hidden;
+	width: 200px;
+	position: fixed;
+}
+
+#sidebar a, a:visited {
+	text-decoration: none;
+	text-emphasis: none;
+	color: black;
+	font-weight: bold;
+}
+
+#sidebar a:hover {
+	color: gray;
+}
